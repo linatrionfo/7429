@@ -2,3 +2,134 @@
     padding: 0;
     margin: 0;
 }
+
+main, footer {
+    margin-left: 200px;
+}
+
+main {
+    background-color: #FAFBFF;
+}
+
+.thisisutah{
+    text-align: center;
+}
+
+.thisisutah > h1 {
+    color: #E98E48;
+    font-family: 'fira-sans', sans-serif;
+}
+
+h2 {
+    color: #353C6D;
+    font-family: 'fira-sans', sans-serif;
+}
+
+.thisisutah > p {
+    color: #3F0601;
+    font-family: 'fira-sans', sans-serif;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.article {
+    width: 250px;
+}
+
+.articles > .article > p {
+    font-family: 'fira-sans', sans-serif;
+    color: #353C6D;
+    font-size: 1em;
+    font-weight: 400px;
+}
+
+.article > h1 {
+    color: #E98E48;
+    font-family: 'fira-sans', sans-serif;
+    font-size: 1.5em;
+}
+
+.views {
+    color: #3F0601;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'fira-sans', sans-serif;
+    font-weight: 300;
+}
+
+.videowrapper {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    font-family: 'fira-sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #3F0601;
+    color: #FAFBFF;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #3F0601;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4)
+}
+
+.btnwrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+footer {
+    background-color: #353C6D;
+    color: #DFBDA0;
+    font-family: 'fira-sans', sans-serif;
+    padding: 30px 80px;
+}
+
+.tophalf {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 60px;
+    margin-left: 60px;
+    line-height: 2em;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+.box {
+    height: 30px;
+    width: 225px;
+    border: solid 5px #DFBDA0;
+}
+
+.middlehalf {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottomhalf {
+    text-align: center;
+    margin-top: 10px;
+}
+
+hr {
+    color: #DFBDA0;
+}
