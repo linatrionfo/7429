@@ -5,292 +5,415 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Guides &amp; Brochures </title>
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/guides.css">
     <link rel="stylesheet" href="https://use.typekit.net/yda7qgg.css">
 </head>
+
 <body>
-<img src="../assets/mapbackground.png" alt="Utah Background">
-<div class="visitor-guides">
-    <h1 class="blue-heading"> Visitor Guides &amp; Brochures </h1>
-    <p class="body"> While Utah.com is the very best source for Utah travel related information, several free publications are available.
-        <br>
-        You can request one or more by submitting the form below. (The publications will be sent via snail mail unless otherwise specified.)
-        <br>
-        For water & tear resistant maps of Utah from National Geographic & more, please visit the Utah.com online store.</p>
-</div>
-<div class="form">
-    <div class="areas-of-interest"> 
-        <h1 class="form-heading">Areas Of Interest</h1>
-        <div>
-            <input type="checkbox" id="alta" name="interest" value="alta">
-            <label for="alta"> Alta/Snowbird Ski Areas </label>
+    <div class="main-nav">
+        <div class="logo">
+            <img src="../assets/logo.svg" alt="Utah.com logo">
         </div>
-        <div>
-            <input type="checkbox" id="bear-lake" name="interest" value="bear-lake">
-            <label for="bear-lake">Bear Lake</label>
+        <div class="search">
+            <input type="text" id="search" name="search" placeholder="Search...">
         </div>
-        <div>
-            <input type="checkbox" id="beaver-county" name="interest" value="beaver-county">
-            <label for="beaver-county">Beaver County</label>
-        </div>
-        <div>
-            <input type="checkbox" id="beaver-mountain" name="interest" value="beaver-mountain">
-            <label for="beaver-mountain">Beaver Mountain Ski Resort</label>
-        </div>
-        <div>
-            <input type="checkbox" id="box-elder" name="interest" value="box-elder">
-            <label for="box-elder">Box Elder County </label>
-        </div>
-        <div>
-            <input type="checkbox" id="brian-head" name="interest" value="brian-head">
-            <label for="brian-head">Brian Head Ski Resort</label>
-        </div>
-        <div>
-            <input type="checkbox" id="bryce-canyon" name="interest" value="bryce-canyon">
-            <label for="bryce-canyon">Bryce Canyon</label>
-        </div>
-        <div>
-            <input type="checkbox" id="canyons-resort" name="interest" value="canyons-resort">
-            <label for="canyons-resort">Canyons Resort</label>
-        </div>
-        <div>
-            <input type="checkbox" id="capitol-reef" name="interest" value="capitol-reef">
-            <label for="capitol-reef">Capitol Reef</label>
-        </div>
-        <div>
-            <input type="checkbox" id="cedar-city" name="interest" value="cedar-city">
-            <label for="cedar-city">Cedar City</label>
-        </div>
-        <div>
-            <input type="checkbox" id="deer-valley" name="interest" value="deer-valley">
-            <label for="deer-valley">Deer Valley Resort</label>
-        </div>
-        <div>
-            <input type="checkbox" id="eagle-point" name="interest" value="eagle-point">
-            <label for="eagle-point">Eagle Point Resort</label>
-        </div>
-        <div>
-            <input type="checkbox" id="flaming-gorge" name="interest" value="flaming-gorge">
-            <label for="flaming-gorge">Flaming Gorge</label>
-        </div>
-        <div>
-            <input type="checkbox" id="garfield-county" name="interest" value="garfield-county">
-            <label for="garfield-county">Garfield County Tourism Bureau</label>
-        </div>
-        <div>
-            <input type="checkbox" id="goblin-valley" name="interest" value="goblin-valley">
-            <label for="goblin-valley">Goblin Valley/San Rafeal Swell</label>
-        </div>
-        <div>
-            <input type="checkbox" id="golden-spike" name="interest" value="golden-spike">
-            <label for="golden-spike">Golden Spike Historic Site</label>
-        </div>
-        <div>
-            <input type="checkbox" id="grand-canyon" name="interest" value="grand-canyon">
-            <label for="grand-canyon">Grand Canyon/Kanab</label>
-        </div>
-        <div>
-            <input type="checkbox" id="grand-staircase" name="interest" value="grand-staircase">
-            <label for="grand-staircase">Grand Staircase-Escalante</label>
-        </div>
-        <div>
-            <input type="checkbox" id="heber" name="interest" value="heber">
-            <label for="heber">Heber/Midway</label>
-        </div>
-        <div>
-            <input type="checkbox" id="kane-county" name="interest" value="kane-county">
-            <label for="kane-county">Kane County Office of Tourism</label>
-        </div>
-        <div>
-            <input type="checkbox" id="logan" name="interest" value="logan">
-            <label for="logan">Logan/Cache Valley</label>
-        </div>
-        <div>
-            <input type="checkbox" id="millard-county" name="interest" value="millard-county">
-            <label for="millard-county">Millard County - Rockhounding</label>
-        </div>
-        <div>
-            <input type="checkbox" id="moab" name="interest" value="moab">
-            <label for="moab">Moab - Arches/Canyonalnds</label>
-        </div>
-        <div>
-            <input type="checkbox" id="monument-valey" name="interest" value="monument-valley">
-            <label for="monument-valley">Monument Valley</label>
-        </div>
-        <div>
-            <input type="checkbox" id="ogden" name="interest" value="ogden">
-            <label for="ogden">Ogden</label>
-        </div>
-        <div>
-            <input type="checkbox" id="panguitch" name="interest" value="panguitch">
-            <label for="panguitch">Panguitch</label>
-        </div>
-        <div>
-            <input type="checkbox" id="park-city-summer" name="interest" value="park-city-summer">
-            <label for="park-city-summer">Park City Summer</label>
-        </div>
-        <div>
-            <input type="checkbox" id="park-city-winter" name="interest" value="park-city-winter">
-            <label for="park-city-winter">Park City Winter</label>
-        </div>
-        <div>
-            <input type="checkbox" id="piute-county" name="interest" value="piute-county">
-            <label for="piute-county">Piute County - ATV Country</label>
-        </div>
-        <div>
-            <input type="checkbox" id="powder-mountain" name="interest" value="powder-mountain">
-            <label for="powder-mountain">Powder Mountain Resort</label>
-        </div>
-        <div>
-            <input type="checkbox" id="provo" name="interest" value="provo">
-            <label for="provo">Provo/Utah County</label>
-        </div>
-        <div>
-            <input type="checkbox" id="salt-lake" name="interest" value="salt-lake">
-            <label for="salt-lake">Salt Lake</label>
-        </div>
-        <div>
-            <input type="checkbox" id="san-rafael" name="interest" value="san-rafael">
-            <label for="san-rafael">San-Rafeal Country</label>
-        </div>
-        <div>
-            <input type="checkbox" id="sandy-ski" name="interest" value="sandy-ski">
-            <label for="sandy-ski">Sandy Ski Areas</label>
-        </div>
-        <div>
-            <input type="checkbox" id="snowbasin" name="interest" value="snowbasin">
-            <label for="snowbasin">Snowbasin Resort</label>
-        </div>
-        <div>
-            <input type="checkbox" id="snowbird" name="interest" value="snowbird">
-            <label for="snowbird">Snowbird Resort</label>
-        </div>
-        <div>
-            <input type="checkbox" id="solitude" name="interest" value="solitude">
-            <label for="solitude">Solitude Mountain Resort</label>
-        </div>
-        <div>
-            <input type="checkbox" id="tuacahn" name="interest" value="tuacahn">
-            <label for="tuacahn">Tuacahn Outdoor Theater</label>
-        </div>
-        <div>
-             <input type="checkbox" id="utah-highways" name="interest" value="utah-highways">
-            <label for="utah-highways">Utah Highways Map</label>
-        </div>
-        <div>
-            <input type="checkbox" id="utah-travel-guide" name="interest" value="utah-travel-guide">
-            <label for="utah-travel-guide">Utah Travel Guide</label>
-        </div>
-        <div>
-            <input type="checkbox" id="vernal" name="interest" value="vernal">
-            <label for="vernal">Vernal - Dinosaurland</label>
-        </div>
-        <div>
-            <input type="checkbox" id="zion" name="interest" value="zion">
-            <label for="zion">Zion/St. George</label>
-        </div>
-        <h1 class="form-heading">Contact Information</h1>
-        <div>
-            <input type="text" id="firstname" placeholder="First Name">
-        </div>
-        <div>
-            <input type="text" id="lastname" placeholder="Last Name">
-        </div>
-        <div>
-            <input type="email" id="email" placeholder="Email">
-        </div>
-        <div>
-            <input type="text" id="address1" placeholder="Address Line One">
-        </div>
-        <div>
-            <input type="text" id="address2" placeholder="Address Line Two">
-        </div>
-        <div>
-            <input type="text" id="city" placeholder="City">
-        </div>
-        <div>
-            <select id="state" placeholder="State">
-                <option value="state">State</option>
-                <option value="alabama">Alabama</option>
-                <option value="alaska">Alaska</option>
-                <option value="arizona">Arizona</option>
-                <option value="arkansas">Arkansas</option>
-                <option value="california">California</option>
-                <option value="colorado">Colorado</option>
-                <option value="conneticut">Conneticut</option>
-                <option value="delaware">Delaware</option>
-                <option value="florida">Florida</option>
-                <option value="georgia">Georgia</option>
-                <option value="hawaii">Hawaii</option>
-                <option value="idaho">Idaho</option>
-                <option value="illinois">Illinois</option>
-                <option value="indiana">Indiana</option>
-                <option value="iowa">Iowa</option>
-                <option value="kansas">Kansas</option>
-                <option value="kentucky">Kentucky</option>
-                <option value="louisiana">Louisiana</option>
-                <option value="maine">Maine</option>
-                <option value="maryland">Maryland</option>
-                <option value="massechussets">Massechussets</option>
-                <option value="michigan">Michigan</option>
-                <option value="minnesota">Minnesota</option>
-                <option value="mississippi">Mississippi</option>
-                <option value="Missouri">Missouri</option>
-                <option value="Montana">Montana</option>
-                <option value="Nebraska">Nebraska</option>
-                <option value="Nevada">Nevada</option>
-                <option value="new-hampshire">New Hampshire</option>
-                <option value="new-jersey">New Jersey</option>
-                <option value="new-mexico">New Mexico</option>
-                <option value="new-york">New York</option>
-                <option value="north-carolina">North Carolina</option>
-                <option value="north-dakota">North Dakota</option>
-                <option value="ohio">Ohio</option>
-                <option value="oklahoma">Oklahoma</option>
-                <option value="oregon">Oregon</option>
-                <option value="pennsylvania">Pennsylvania</option>
-                <option value="rhode-island">Rhode Island</option>
-                <option value="south-carolina">South Carolina</option>
-                <option value="south-dakota">South Dakota</option>
-                <option value="tennessee">Tennessee</option>
-                <option value="texas">Texas</option>
-                <option value="utah">Utah</option>
-                <option value="vermont">Vermont</option>
-                <option value="virginia">Virginia</option>
-                <option value="washington">Washington</option>
-                <option value="west-virginia">West Virginia</option>
-                <option value="wisconsin">Wisconsin</option>
-                <option value="wyoming">Wyoming</option>
-              </select>
-        </div>
-        <div>
-            <input type="text" id="zipcode" placeholder="Zipcode">
-        </div>
-        <div>
-            <p class="body"> Check "Yes' to receive travel tips, gear giveaways, insider info and awesome vacation ideas from Utah.com and other travel bureaus. 
-                You can change your mind at any time by clicking on the unsubscribe link in the footer of any email you receive from us.</p>
-            <div>
-                <input type="radio" id="yes" value="yes">
-                <label for="yes">Yes</label>
+        <nav>
+            <div class="always-visible">
+                <div class="destinations"><a href="#" class="main-link">DESTINATIONS</a>
+                    <div class="destinations-dropdown">
+                        <div class="national-parks dds">
+                            <div class="link-head"><a href="#">National Parks</a></div><br/>
+                            <a href="#">Arches</a><br/>
+                            <a href="#">Bryce Canyon</a><br/>
+                            <a href="#">Canyonlands</a><br/>
+                            <a href="#">Capitol Reef</a><br/>
+                            <a href="#">Zion</a><br/>
+                            <a href="#">Grand Canyon</a><br/>
+                            <a href="#">Grand Circle Tour</a><br/>
+                            <a href="#">See All</a><br/>
+                        </div>
+                        <div class="national-monuments dds">
+                            <div class="link-head"><a href="#">National Monuments</a></div><br/>
+                            <a href="#">Bears Ears</a><br/>
+                            <a href="#">Ceader Breaks</a><br/>
+                            <a href="#">Dinosaur National Monument</a><br/>
+                            <a href="#">Four Corners</a><br/>
+                            <a href="#">Grand Staircase-Escalante</a><br/>
+                            <a href="#">Monument Valley</a><br/>
+                            <a href="#">Timpanogos Cave</a><br/>
+                            <a href="#">See All</a><br/>
+                        </div>
+                        <div class="cities-towns dds">
+                            <div class="link-head"><a href="#">Cities &amp; Towns</a></div><br/>
+                            <a href="#">Kanab</a><br/>
+                            <a href="#">Logan</a><br/>
+                            <a href="#">Moab</a><br/>
+                            <a href="#">Park City</a><br/>
+                            <a href="#">Provo</a><br/>
+                            <a href="#">Salt Lake City</a><br/>
+                            <a href="#">St. George (Greater Zion)</a><br/>
+                            <a href="#">See All</a><br/>
+                        </div>
+                        <div class="state-parks dds">
+                            <div class="link-head"><a href="#" class="link-head">State Parks</a></div><br/>
+                            <a href="#">Antelope Island</a><br/>
+                            <a href="#">Bear Lake State Park</a><br/>
+                            <a href="#">Coral Pink Sand Dunes</a><br/>
+                            <a href="#">Goblin Valley State Park</a><br/>
+                            <a href="#">Great Salt Lake</a><br/>
+                            <a href="#">Sand Hollow</a><br/>
+                            <a href="#">Snow Canyon</a><br/>
+                            <a href="#">See All</a><br/>
+                        </div>
+                        <div class="ski-resorts dds">
+                            <div class="link-head"><a href="#">Ski Resorts</a></div><br/>
+                            <a href="#">Alta Ski Area</a><br/>
+                            <a href="#">Beaver Mountain Resort</a><br/>
+                            <a href="#">Brian Head Resort</a><br/>
+                            <a href="#">Brighton Ski Resort</a><br/>
+                            <a href="#">Deer Valley Resort</a><br/>
+                            <a href="#">Powder Mountain Resort</a><br/>
+                            <a href="#">Solitude Mountain Resort</a><br/>
+                            <a href="#">See All</a><br/>
+                        </div>
+                        <div class="natural-areas dds">
+                            <div class="link-head"><a href="#">Natural Areas</a></div><br/>
+                            <a href="#">Bonneville Salt Flats</a><br/>
+                            <a href="#">Flaming Gorge</a><br/>
+                            <a href="#">Lake Powell</a><br/>
+                            <a href="#">Little Sahara Sand Dunes</a><br/>
+                            <a href="#">Pineview Reservoir</a><br/>
+                            <a href="#">San Rafael Swell</a><br/>
+                            <a href="#">The Wave</a><br/>
+                            <a href="#">St. George (Greater Zion)</a><br/>
+                            <a href="#">See All</a><br/>
+                    </div>
+                </div>
             </div>
-            <div>
-                <input type="radio" id="no" value="no">
-                <label for="no">No</label>
-            </div>
+            <a href="#" class="main-link">THINGS TO DO</a>
+            <a href="#" class="main-link">LODGING</a>
+            <a href="#" class="main-link">TOURS &amp; GUIDES</a>
+            <a href="#" class="main-link">DEALS</a>
+            <a href="#" class="main-link">EVENTS</a>
+            <a href="#" class="main-link">STORE</a>
+            <a href="pages/guides-and-brochures.html" class="main-link">MAPS &amp; BROCHURES</a>
+            <a href="pages/design.html" class="main-link">DESIGN</a>
         </div>
-        <div>
-            <p class="body"> I have read and acknowledge the Privacy Policy:</p>
-            <div>
-                <input type="radio" id="yes" value="yes">
-                <label for="yes">Yes</label>
-            </div>
-            <div>
-                <input type="radio" id="no" value="no">
-                <label for="no">No</label>
-            </div>
-        </div>
+    </nav>
     </div>
-</div>
+    <main>
+        <div class="splash"><img src="../assets/mapbackground.png" alt="Utah Background"></div>
+        <div class="visitor-guides">
+            <div class="blue-heading"> Visitor Guides &amp; Brochures </div>
+            <p class="body"> While Utah.com is the very best source for Utah travel related information, several free publications are available.
+                <br>
+                You can request one or more by submitting the form below. (The publications will be sent via snail mail unless otherwise specified.)
+                <br><br>
+                For water & tear resistant maps of Utah from National Geographic & more, please visit the Utah.com online store.</p>
+        </div>
+
+        <form>
+            <div class="areas-of-interest"> 
+                <div class="form-heading">Areas Of Interest</div>
+                <div class="checks">
+                    <div>
+                        <input type="checkbox" id="alta" name="interest" value="alta">
+                        <label for="alta"> Alta/Snowbird Ski Areas </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bear-lake" name="interest" value="bear-lake">
+                        <label for="bear-lake">Bear Lake</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="beaver-county" name="interest" value="beaver-county">
+                        <label for="beaver-county">Beaver County</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="beaver-mountain" name="interest" value="beaver-mountain">
+                        <label for="beaver-mountain">Beaver Mountain Ski Resort</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="box-elder" name="interest" value="box-elder">
+                        <label for="box-elder">Box Elder County </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="brian-head" name="interest" value="brian-head">
+                        <label for="brian-head">Brian Head Ski Resort</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="bryce-canyon" name="interest" value="bryce-canyon">
+                        <label for="bryce-canyon">Bryce Canyon</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="canyons-resort" name="interest" value="canyons-resort">
+                        <label for="canyons-resort">Canyons Resort</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="capitol-reef" name="interest" value="capitol-reef">
+                        <label for="capitol-reef">Capitol Reef</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cedar-city" name="interest" value="cedar-city">
+                        <label for="cedar-city">Cedar City</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="deer-valley" name="interest" value="deer-valley">
+                        <label for="deer-valley">Deer Valley Resort</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="eagle-point" name="interest" value="eagle-point">
+                        <label for="eagle-point">Eagle Point Resort</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="flaming-gorge" name="interest" value="flaming-gorge">
+                        <label for="flaming-gorge">Flaming Gorge</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="garfield-county" name="interest" value="garfield-county">
+                        <label for="garfield-county">Garfield County Tourism Bureau</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="goblin-valley" name="interest" value="goblin-valley">
+                        <label for="goblin-valley">Goblin Valley/San Rafeal Swell</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="golden-spike" name="interest" value="golden-spike">
+                        <label for="golden-spike">Golden Spike Historic Site</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="grand-canyon" name="interest" value="grand-canyon">
+                        <label for="grand-canyon">Grand Canyon/Kanab</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="grand-staircase" name="interest" value="grand-staircase">
+                        <label for="grand-staircase">Grand Staircase-Escalante</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="heber" name="interest" value="heber">
+                        <label for="heber">Heber/Midway</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="kane-county" name="interest" value="kane-county">
+                        <label for="kane-county">Kane County Office of Tourism</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="logan" name="interest" value="logan">
+                        <label for="logan">Logan/Cache Valley</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="millard-county" name="interest" value="millard-county">
+                        <label for="millard-county">Millard County - Rockhounding</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="moab" name="interest" value="moab">
+                        <label for="moab">Moab - Arches/Canyonalnds</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="monument-valey" name="interest" value="monument-valley">
+                        <label for="monument-valley">Monument Valley</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ogden" name="interest" value="ogden">
+                        <label for="ogden">Ogden</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="panguitch" name="interest" value="panguitch">
+                        <label for="panguitch">Panguitch</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="park-city-summer" name="interest" value="park-city-summer">
+                        <label for="park-city-summer">Park City Summer</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="park-city-winter" name="interest" value="park-city-winter">
+                        <label for="park-city-winter">Park City Winter</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="piute-county" name="interest" value="piute-county">
+                        <label for="piute-county">Piute County - ATV Country</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="powder-mountain" name="interest" value="powder-mountain">
+                        <label for="powder-mountain">Powder Mountain Resort</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="provo" name="interest" value="provo">
+                        <label for="provo">Provo/Utah County</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="salt-lake" name="interest" value="salt-lake">
+                        <label for="salt-lake">Salt Lake</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="san-rafael" name="interest" value="san-rafael">
+                        <label for="san-rafael">San-Rafeal Country</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="sandy-ski" name="interest" value="sandy-ski">
+                        <label for="sandy-ski">Sandy Ski Areas</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="snowbasin" name="interest" value="snowbasin">
+                        <label for="snowbasin">Snowbasin Resort</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="snowbird" name="interest" value="snowbird">
+                        <label for="snowbird">Snowbird Resort</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="solitude" name="interest" value="solitude">
+                        <label for="solitude">Solitude Mountain Resort</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="tuacahn" name="interest" value="tuacahn">
+                        <label for="tuacahn">Tuacahn Outdoor Theater</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="utah-highways" name="interest" value="utah-highways">
+                        <label for="utah-highways">Utah Highways Map</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="utah-travel-guide" name="interest" value="utah-travel-guide">
+                        <label for="utah-travel-guide">Utah Travel Guide</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="vernal" name="interest" value="vernal">
+                        <label for="vernal">Vernal - Dinosaurland</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="zion" name="interest" value="zion">
+                        <label for="zion">Zion/St. George</label>
+                    </div>
+                </div>
+            </div>
+
+                <!-------------------- CONTACT ----------------->
+
+                <div class="contact">
+                    <div class="form-heading">Contact Information</div>
+                        <div class="first-last double-group">
+                            <div>
+                                <input type="text" id="firstname" placeholder="First Name">
+                            </div>
+                            <div>
+                                <input type="text" id="lastname" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <input type="text" id="address1" placeholder="Address Line One">
+                        </div>
+                        <div>
+                            <input type="text" id="address2" placeholder="Address Line Two">
+                        </div>
+                        <div class="city-state double-group">
+                            <div>
+                                <input type="text" id="city" placeholder="City">
+                            </div>
+                            <div>
+                                <select id="state" placeholder="state">
+                                    <option value="alabama">Alabama</option>
+                                    <option value="alaska">Alaska</option>
+                                    <option value="arizona">Arizona</option>
+                                    <option value="arkansas">Arkansas</option>
+                                    <option value="california">California</option>
+                                    <option value="colorado">Colorado</option>
+                                    <option value="conneticut">Conneticut</option>
+                                    <option value="delaware">Delaware</option>
+                                    <option value="florida">Florida</option>
+                                    <option value="georgia">Georgia</option>
+                                    <option value="hawaii">Hawaii</option>
+                                    <option value="idaho">Idaho</option>
+                                    <option value="illinois">Illinois</option>
+                                    <option value="indiana">Indiana</option>
+                                    <option value="iowa">Iowa</option>
+                                    <option value="kansas">Kansas</option>
+                                    <option value="kentucky">Kentucky</option>
+                                    <option value="louisiana">Louisiana</option>
+                                    <option value="maine">Maine</option>
+                                    <option value="maryland">Maryland</option>
+                                    <option value="massechussets">Massechussets</option>
+                                    <option value="michigan">Michigan</option>
+                                    <option value="minnesota">Minnesota</option>
+                                    <option value="mississippi">Mississippi</option>
+                                    <option value="Missouri">Missouri</option>
+                                    <option value="Montana">Montana</option>
+                                    <option value="Nebraska">Nebraska</option>
+                                    <option value="Nevada">Nevada</option>
+                                    <option value="new-hampshire">New Hampshire</option>
+                                    <option value="new-jersey">New Jersey</option>
+                                    <option value="new-mexico">New Mexico</option>
+                                    <option value="new-york">New York</option>
+                                    <option value="north-carolina">North Carolina</option>
+                                    <option value="north-dakota">North Dakota</option>
+                                    <option value="ohio">Ohio</option>
+                                    <option value="oklahoma">Oklahoma</option>
+                                    <option value="oregon">Oregon</option>
+                                    <option value="pennsylvania">Pennsylvania</option>
+                                    <option value="rhode-island">Rhode Island</option>
+                                    <option value="south-carolina">South Carolina</option>
+                                    <option value="south-dakota">South Dakota</option>
+                                    <option value="tennessee">Tennessee</option>
+                                    <option value="texas">Texas</option>
+                                    <option value="utah">Utah</option>
+                                    <option value="vermont">Vermont</option>
+                                    <option value="virginia">Virginia</option>
+                                    <option value="washington">Washington</option>
+                                    <option value="west-virginia">West Virginia</option>
+                                    <option value="wisconsin">Wisconsin</option>
+                                    <option value="wyoming">Wyoming</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="zip-country double-group">
+                            <div>
+                                <input type="text" id="zipcode" placeholder="Zipcode">
+                            </div>
+                            <div>
+                                <input type="text" id="country" placeholder="Country">
+                            </div>
+                        </div>
+
+                        <div class="last-part">
+                            <div>
+                                <p class="body"> Check "Yes' to receive travel tips, gear giveaways, insider info and awesome vacation ideas from Utah.com and other travel bureaus. 
+                                    You can change your mind at any time by clicking on the unsubscribe link in the footer of any email you receive from us.</p>
+                                <div class="radio">
+                                    <div class="radio">
+                                        <input type="radio" id="yes" value="yes" name="newsletter">
+                                        <label for="yes">Yes</label>
+                                    </div>
+                                    <div class="radio">
+                                        <input type="radio" id="no" value="no" name="newsletter">
+                                        <label for="no">No</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="body"> I have read and acknowledge the Privacy Policy:</p>
+                                <div class="radio">
+                                    <div class="radio">
+                                        <input type="radio" id="yes" value="yes" name="privpol">
+                                        <label for="yes">Yes</label>
+                                    </div>
+                                    <div class="radio">
+                                        <input type="radio" id="no" value="no" name="privpol">
+                                        <label for="no">No</label>
+                                    </div>
+                                </div>
+                                <input type="submit" class="submit">
+                                <input type="reset" class="reset">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
+</main>
 </body>
 </html>
