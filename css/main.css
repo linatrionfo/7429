@@ -132,4 +132,13 @@ footer {
 
 hr {
     color: #DFBDA0;
+.header {
+    font-family: 'fira-sans', sans-serif;
+    font-weight: bold;
+    color: #E98E48;
+}
+
+.body {
+    font-family: 'gitan-latin', serif;
+    color: #3F0601;
 }
