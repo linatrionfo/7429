@@ -1,0 +1,138 @@
+.splash img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.blue-heading {
+    font-family: 'fira-sans', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #353C6D;
+}
+
+.visitor-guides {
+    border-left: 2px solid #353C6D;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+form {
+    margin-left: 60px;
+}
+
+.form-heading {
+    font-family: 'fira-sans', sans-serif;
+    font-weight: bold;
+    color: #DFBDA0;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+form .areas-of-interest {
+    margin-bottom: 30px;
+}
+
+form .areas-of-interest .checks {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+form .checks div label{
+    font-family: 'gitan-latin', serif;
+    color: #3F0601;
+    margin-left: 8px;
+}
+
+form .checks div label {
+    width: 200px;
+    height: 55px;
+    padding: 8px;
+    margin: 4px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+form .checks div:hover label, .form .checks input:checked + label {
+    background-color: #3F0601;
+    color: #FAFBFF;
+}
+
+form .checks input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+
+
+
+  .contact {
+      width: 500px;
+  }
+
+  .contact input, select {
+      border-radius: 40px;
+      height: 30px;
+      padding-left: 10px;
+      border: 1px solid #3F0601;
+      outline: none;
+      width: 90%;
+      margin: 10px;
+
+  }
+
+  .contact input::placeholder {
+    font-family: 'gitan-latin', serif;
+  }
+
+  .double-group {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 95%;
+  }
+
+  form .contact .last-part {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 10px;
+  }
+
+  form .contact .last-part input {
+      margin: 0;
+      padding: 0 20px;
+      width: 10px;
+
+  }
+
+  .last-part .radio {
+      display: flex;
+  }
+
+  .last-part * {
+      font-size: 10px;
+  }
+
+  .last-part input {
+      width: 15px;
+  }
+
+  form .submit {
+      border-radius: 1px;
+      background-color: #3F0601;
+      color: #FAFBFF;
+      width: 200px;
+      padding: 1px;
+  }
+
+  form .reset {
+      border: none;
+      border-radius: 1px;
+      background-color: #FAFBFF;
+      color: #3F0601;
+      width: 100px;
+  }
