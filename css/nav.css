@@ -1,8 +1,9 @@
 .main-nav {
     width: 200px;
-    display: fixed;
+    position: fixed;
     padding-top: 15px;
     background-color: #FAFBFF;
+    height: 500px;
 }
 
 .logo, .search {
@@ -19,10 +20,19 @@
     width: 90%;
 }
 
-.main-nav .search input {
+.main-nav .search #search {
     height: 30px;
     padding-left: 10px;
     width: 85%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #3F0601;
+}
+
+.main-nav .search #search:focus {
+    background-color: transparent;
+    border-bottom: #E98E48;
+    outline: none;
 }
 
 .main-nav .always-visible {
@@ -34,25 +44,81 @@
     grid-gap: 10px;
 }
 
-.main-nav .always-visible a {
+.main-nav .always-visible .main-link {
     text-decoration: none;
     font-family: 'fira-sans', sans-serif;
     color: #E98E48;
     padding: 10px;
     padding-left: 15px;
-    transition: .05s;
+    transition: .2s;
 }
 
-.main-nav .always-visible a:any-link {
+.main-nav .always-visible .main-link:any-link {
     color: #E98E48;
 }
 
-.main-nav .always-visible a:hover {
+.main-nav .always-visible .main-link:hover {
     background-color: #3F0601;
     color: #FAFBFF;
+    border-left: 10px solid #FAFBFF;
 }
 
+.main-nav .destinations:hover .main-link {
+    padding-right: 100%;
+    background-color: #3F0601;
+    color: #FAFBFF;
+    border-left: 10px solid #FAFBFF;
+}
 
 
 /********* dropdown **************/
 
+.destinations-dropdown {
+    display: none; /*grid*/
+    background-color: #3f0601;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 750px;
+    grid-template: 1fr 1fr/1fr 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.main-nav .destinations:hover .destinations-dropdown{
+    display: grid;
+}
+
+
+.dds {
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.destinations-dropdown .link-head a:any-link {
+    color: #DFBDA0;
+    font-family: 'fira-sans', sans-serif;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #DFBDA0;
+    transition: .05s;
+}
+
+.destinations-dropdown a:any-link {
+    font-family: 'gitan-latin', serif;
+    text-decoration: none;
+    color: #FAFBFF;
+    transition: .05s;
+}
+
+.destinations-dropdown .link-head a:hover {
+    color: #FAFBFF;
+}
+
+.destinations-dropdown a:hover {
+    color: #DFBDA0;
+}
